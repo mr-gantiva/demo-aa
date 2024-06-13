@@ -1,0 +1,185 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+<link async rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="./assets/css/astro-aventura.css">
+
+<style>
+@font-face {
+  font-family: "Outfit-Light";
+  src: url("https://parquearauco.modyocdn.com/uploads/cb6d137f-a394-4312-bf8c-2deced8e6007/original/KGHAPPY.ttf") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+a {
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-size: clamp(1rem, 2vw + 1rem, 4rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 2vw + 1rem, 3rem);
+}
+
+h5 {
+  font-size: clamp(1rem, 2vw + 1rem, 1.25rem);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+img {
+    max-width: 100%;
+} */
+.section-wrapper {
+  padding: 0rem 5rem;
+}
+
+.contenedor-fondo {
+  position: relative;
+}
+
+.contenedor-titulo {
+  position: relative;
+}
+.contenedor-titulo .box-titulo {
+  width: 45%;
+}
+.contenedor-titulo .box-titulo img {
+  width: 100%;
+}
+
+.box-titulo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.box-titulo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.contenedor-marcianos {
+  position: relative;
+}
+.contenedor-marcianos .box-marcianos {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+}
+.contenedor-marcianos .box-marcianos .marciano {
+  width: 25%;
+}
+.contenedor-marcianos .box-marcianos .marciano img {
+  width: 100%;
+}
+.contenedor-marcianos .box-marcianos .marciano:nth-child(1) {
+  position: absolute;
+  left: 50px;
+}
+.contenedor-marcianos .box-marcianos .marciano:last-child {
+  position: absolute;
+  right: 50px;
+}/*# sourceMappingURL=astro-aventura.css.map */
+</style>
+
+<section class="container-fluid px-0">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/8918beb2-b7d0-47f8-91a2-fd1e9be73182/original/interno-astro-aventura_02.webp"
+            alt="" class="w-100">
+    </div>
+</section>
+<!-- Sección titulo-->
+<section class="container-fluid px-0 contenedor-titulo">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/cc6f4d65-6f42-43f4-8d83-1c07cc2bb183/original/interno-astro-aventura_03.webp"
+            alt="" class="w-100">
+    </div>
+    <div class="box-titulo py-2">
+        <img src="https://parquearauco.modyocdn.com/uploads/21bcc3b3-e794-4dab-a9de-c4912769ecb2/original/texto-diversion.webp"
+            alt="">
+    </div>
+</section>
+
+<!-- Sección marcianos-->
+<section class="container-fluid px-0 contenedor-marcianos">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/ddccb9cd-14df-4514-99cb-b800dc62ca4c/original/interno-astro-aventura_04.webp"
+            alt="" class="w-100">
+    </div>
+
+    <div class="box-marcianos">
+        <div class="marciano py-2">
+            <img src="https://parquearauco.modyocdn.com/uploads/134493a6-8689-433a-a4e3-890858443f79/original/ASTRONAUTA.webp"
+                alt="">
+        </div>
+        <div class="marciano py-2">
+            <img src="https://parquearauco.modyocdn.com/uploads/16a9fc04-721b-4dea-9280-1607054386c4/original/ALIEN_1.webp"
+                alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Sección separador-->
+<section class="container-fluid px-0">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/991698d6-7c47-4763-ab21-3157621037b3/original/interno-astro-aventura_05.webp"
+            alt="" class="w-100">
+    </div>
+</section>
+
+<!-- Sección Flechas -->
+<section class="container-fluid px-0 contenedor-flechas">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/228712b3-2cd3-414c-bd6b-9bd47cd631fd/original/texto-flechas_06.webp"
+            alt="" class="w-100">
+    </div>
+</section>
+
+<!-- Sección Cards 1 -->
+<section class="container-fluid px-0">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/17b6d50d-e713-47bd-a90f-745eb0779f49/original/cards_07.webp"
+            alt="" class="w-100">
+    </div>
+</section>
+
+<!-- Sección Cards 2 -->
+<section class="container-fluid px-0">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/a6d92ef8-45cd-469c-be21-4af86e29bb51/original/cards_08.webp"
+            alt="" class="w-100">
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="container-fluid px-0">
+    <div class="contenedor-fondo">
+        <img src="https://parquearauco.modyocdn.com/uploads/db39eea2-2c38-482b-9a29-93792d937bd2/original/interno-astro-aventura_09.webp"
+            alt="" class="w-100">
+    </div>
+</section>
